@@ -4,14 +4,17 @@ public class Application {
 
    public static void main(String[] args) {
       int age = 50;
+      
+      //add
       age = age + 1;
 
-      // vermenigvuldigen: *
-
+      // multiply
       age = age * 3;
 
+      //division
       age = age / 3;
 
+      //subtract
       age = age - 3;
       
       
@@ -56,11 +59,6 @@ public class Application {
       
       e += 13;
       // zelfde als e = e + 13;
-      
-      
-      
-
-    
    }
 
 }
