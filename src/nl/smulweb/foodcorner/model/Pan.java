@@ -55,5 +55,10 @@ public class Pan {
    public void setColor(Color color) {
       this.color = color;
    }
+
+   @Override
+   public String toString() {
+      return "Pan [brand=" + brand + ", size=" + size + "]";
+   }
    
 }
