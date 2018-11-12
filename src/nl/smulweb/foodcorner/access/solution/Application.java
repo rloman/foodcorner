@@ -1,14 +1,14 @@
 package nl.smulweb.foodcorner.access.solution;
 
 import nl.smulweb.foodcorner.access.solution.model.AlcoholicDrink;
-import nl.smulweb.foodcorner.access.solution.model.AlcolholFreeDrink;
+import nl.smulweb.foodcorner.access.solution.model.AlcoholFreeDrink;
 
 public class Application {
 
    public static void main(String[] args) {
       
       AlcoholicDrink d = new   AlcoholicDrink();
-      AlcolholFreeDrink d2 = new AlcolholFreeDrink();
+      AlcoholFreeDrink d2 = new AlcoholFreeDrink();
       
       d.drinkMe();
       d2.drinkMe();
