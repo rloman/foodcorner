@@ -21,9 +21,8 @@ public class Dog {
 
 class GermanSheperd extends Dog {
  
-   public String getName() {
-      
-   }
+   // compile error
+//   public String getName() {}
    
 }
 
