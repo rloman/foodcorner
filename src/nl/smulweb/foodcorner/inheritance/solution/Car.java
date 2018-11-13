@@ -6,10 +6,6 @@ public class Car extends Vehicle {
    private String licensePlate;
    private int mileAge;
    
-   public Car() {
-      
-   }
-   
    public Car(String licensePlate) {
       this.licensePlate = licensePlate;
    }
