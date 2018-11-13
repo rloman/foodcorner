@@ -7,7 +7,13 @@ public class Truck extends Car {
    public Truck(String licensePlate) {
       super(licensePlate);
    }
-
+   
+   @Override
+   public void drive() {
+      super.drive();
+      System.out.println("Driving Truck ... ");
+   }
+   
    public double getMaxWeight() {
       return maxWeight;
    }

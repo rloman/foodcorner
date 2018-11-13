@@ -10,7 +10,10 @@ public class Car extends Vehicle {
       this.licensePlate = licensePlate;
    }
    
+   @Override
    public void drive() {
+      
+      System.out.println("Driving car ... ");
       this.mileAge++;
    }
 
