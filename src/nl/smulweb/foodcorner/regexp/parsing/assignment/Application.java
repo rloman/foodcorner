@@ -1,4 +1,4 @@
-package nl.smulweb.foodcorner.regexp.parsing.solution;
+package nl.smulweb.foodcorner.regexp.parsing.assignment;
 
 import java.time.LocalDate;
 import java.util.regex.Matcher;
@@ -11,7 +11,7 @@ public class Application {
       System.out.println("Example 1");
       {
          String label = "I was born on 09-08-1968 and that was a Friday!!!";
-         Pattern p = Pattern.compile("[0-9]{2}-[0-9]{2}-[0-9]{4}");
+         Pattern p = Pattern.compile("// ??? ///");
          Matcher matcher = p.matcher(label);
 
          while (matcher.find()) {
@@ -22,14 +22,14 @@ public class Application {
       System.out.println("Example 2");
       {
          String label = "I was born on 09-08-1968 and that was a Friday!!!";
-         Pattern p = Pattern.compile(".*([0-9]{2})-([0-9]{2})-([0-9]{4}).*");
+         Pattern p = Pattern.compile("/// ??? ///");
          Matcher matcher = p.matcher(label);
 
          if (matcher.matches()) {
-            String all = matcher.group(0);
-            String day = matcher.group(1);
-            String month = matcher.group(2);
-            String year = matcher.group(3);
+            String all = null; //??? matcher.(???)
+            String day = null; // idem
+            String month = null;
+            String year = null;
             
             LocalDate birthDate = LocalDate.of(Integer.parseInt(year), Integer.parseInt(month), Integer.parseInt(day));
             
