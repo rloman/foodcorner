@@ -18,7 +18,7 @@ public class Application {
             System.out.println(">" + matcher.group() + "<");
          }
       }
-      
+
       System.out.println("Example 2");
       {
          String label = "I was born on 09-08-1968 and that was a Friday!!!";
@@ -30,9 +30,9 @@ public class Application {
             String day = matcher.group(1);
             String month = matcher.group(2);
             String year = matcher.group(3);
-            
+
             LocalDate birthDate = LocalDate.of(Integer.parseInt(year), Integer.parseInt(month), Integer.parseInt(day));
-            
+
             System.out.println(birthDate.getDayOfWeek());
          }
          else {
