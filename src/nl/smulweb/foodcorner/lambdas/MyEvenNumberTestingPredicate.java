@@ -10,5 +10,4 @@ public class MyEvenNumberTestingPredicate implements Predicate<Integer> {
       
       return result;
    }
-
 }

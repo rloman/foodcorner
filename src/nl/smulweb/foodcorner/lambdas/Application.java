@@ -41,9 +41,6 @@ public class Application {
       numberList.stream().filter(n -> n %2 == 0).map(j -> j * j).forEach(e -> {
          System.out.println(e);
       });
-      
-      
-
    }
 
 }
